@@ -1,0 +1,108 @@
+/*  Regras Gerais */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* LOGO NAV*/
+
+.logo {
+
+	width: 160px;
+}
+
+#nav {
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(248,193,19,1) 100%);
+	box-shadow: 2px 2px 2px 2px #cdcdcd;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+#navbarNav ul li a {
+	color: #fff;
+	font-weight: bold;
+	
+}
+
+#navbarNav ul li a:hover {
+	color: #000;
+	background: #fff;
+}
+
+/*Sessão do Carrosel*/
+.sectionCarrosel {
+	margin-top: 5px;
+}
+/*Sessão do Banner*/
+#imgBanner {
+	height: 350px;
+}
+
+#mainQuemsomos {
+	margin-top: 100px;
+	font-size: 18px;
+}
+
+.main-title {
+	color: #000;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+/*Sessão de serviços*/
+
+.main-title {
+	text-decoration: underline;
+	text-decoration-color: #f8c113;
+	text-decoration-style: double;
+}
+
+
+#blocos {
+	margin-bottom: 100px;
+
+}
+
+
+.destaque-texto {
+
+	color: #f8c113;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+.icones {
+	color: #f8c113;
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+.destaque {
+	font-size: 16px;
+	color: #000;
+	padding: 15px;
+	padding-top: 10px;
+}
+
+/*Contato*/
+#estilocontato {
+	margin-bottom: 150px;
+	text-decoration: underline;
+	text-decoration-color: #f8c113;
+	text-decoration-style: double;
+}
+
+/*Footer*/
+#footer {
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(248,193,19,1) 100%);
+}
+
+.logo_footer {
+	height: 120px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
